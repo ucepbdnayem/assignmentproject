@@ -4,12 +4,10 @@ import Link from "next/link";
 function Navber(props) {
     return (
         <nav className={navStyle.navbar}>
-            <div className={navStyle.logo}>MUO</div>
+            <div className={navStyle.logo}>My Blog</div>
             <ul className={navStyle.navLinks}>
                 <div className={navStyle.menu}>
-                    <li><Link href="/home">Home</Link></li>
-                    {/*<li><Link href="/blog">About</Link></li>*/}
-                    {/*<li><Link href="/post">Post</Link></li>*/}
+                    <li><Link href={`/home`}>Home</Link></li>
                 </div>
             </ul>
         </nav>

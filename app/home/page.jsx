@@ -23,7 +23,7 @@ function Home(props) {
                 </p>
             </div>
             <div className={homeStyle.btnDiv}>
-                <Link className={homeStyle.button} href="/post">Post</Link>
+                <Link className={homeStyle.button} href={`/post`}>Post</Link>
             </div>
         </div>
 
