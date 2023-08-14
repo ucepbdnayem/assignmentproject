@@ -1,0 +1,38 @@
+.home-container {
+    width: 500px;
+    margin: 5px auto;
+}
+.paragraph {
+    margin-top: 15px;
+    text-align: justify;
+}
+.heading {
+    margin-top: 10px;
+}
+.btn-div {
+    margin: 20px;
+}
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 2px 1px;
+    cursor: pointer;
+    padding: 10px 24px;
+}
+.button:hover {
+    background-color: #000; /* Green */
+    border: 1px solid #ffffff;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 2px 1px;
+    cursor: pointer;
+    padding: 10px 24px;
+}

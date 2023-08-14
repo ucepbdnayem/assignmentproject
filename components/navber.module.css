@@ -1,0 +1,64 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: teal;
+    color: #fff;
+}
+.nav-links a {
+    color: #fff;
+}
+/* LOGO */
+.logo {
+    font-size: 32px;
+}
+/* NAVBAR MENU */
+.menu {
+    display: flex;
+    gap: 1em;
+    font-size: 18px;
+}
+.menu li:hover {
+    background-color: #4c9e9e;
+    border-radius: 5px;
+    transition: 0.3s ease;
+    list-style: none;
+}
+.menu li {
+    padding: 5px 14px;
+    list-style: none;
+}
+
+.comeemt-body {
+    width: 70%;
+    margin: 10px auto;
+}
+.font-bold {
+    margin-top: 5px;
+}
+
+.media-block .media-left {
+    display: block;
+    float: left;
+    margin-top: 5px;
+}
+
+.media-block .media-right {
+    float: right
+}
+
+.media-block .media-body {
+    display: block;
+    overflow: hidden;
+    width: auto
+}
+
+.text-muted, a.text-muted:hover, a.text-muted:focus {
+    color: #acacac;
+}
+.mar-btm {
+    padding-left: 15px;
+    font-size: smaller;
+}
+
